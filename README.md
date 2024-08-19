@@ -4,6 +4,12 @@ Utilities to display [`shairport-sync`](https://github.com/mikebrady/shairport-s
 
 See [REQUIREMENTS](REQUIREMENTS.md) for other things you'll need (like AirPlay source, AirPlay receiver such as `shairport-sync`, MQTT broker, and software or hardware renderers/displays).
 
+A fork of [shairport-sync-mqtt-display](https://github.com/idcrook/shairport-sync-mqtt-display)
+
+### Python app
+
+In progress...
+
 ### Webserver webapp
 
 [python-flask-socketio-server](python-flask-socketio-server/#readme) - [README.md](python-flask-socketio-server/README.md)
@@ -15,27 +21,9 @@ See [REQUIREMENTS](REQUIREMENTS.md) for other things you'll need (like AirPlay s
 
 ![Screenshot - Opposing screenshots in dark mode and light mode](python-flask-socketio-server/framed_screenshots.png "Dark mode and Light mode on iPhone 11 Pro")
 
-### Display on 16x2 Character LCD
-
-[circuitpython_char_lcd](circuitpython_char_lcd/#readme) - [README.md](circuitpython_char_lcd/README.md)
-
--	Configurable display and UI.
--	Remote control support for Playback and Volume
--	Tested using CircuitPython i2c LCD library on a Raspberry Pi.
-
-![Photo - Running on Raspberry Pi](circuitpython_char_lcd/photo1.jpg "Running on a Pi with 16x2 Character LCD display")
-
-### Display album art thumbnails on HUB75 LED Panels
-
-[python-flaschen-taschen](python-flaschen-taschen/#readme) - [python-flaschen-taschen](python-flaschen-taschen/README.md)
-
--	Tested with 32 x 32 matrix RGB LED  panels
-
-![Photo - Running on Raspberry Pi with HUB75 LED panel](python-flaschen-taschen/photo1.jpg "Running on a Pi with 32x32 RGB LED Panel")
-
 ### LICENSE
 
-Code and documentation Copyright © 2019-2021 David Crook under [MIT License](LICENSE).
+Code and documentation Copyright © 2024 TechnoNene under [MIT License](LICENSE).
 
 ---
 
